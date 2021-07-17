@@ -1,0 +1,189 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(88, 85, 85);
+}
+
+.menu{
+    text-align: center;
+    font-size: 0.7cm;
+    background-color: black;
+    padding: 0.5cm 0.5cm;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.menuItems a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    background: black;
+}
+
+.menuItems a:hover{
+    padding-bottom: 0px;
+    font-size: 25px;
+    border-bottom:3px solid white;
+}
+
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', monospace;
+}
+
+
+.greet{
+    background-image: url(./assets/black.jpg);
+    padding: 150px;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.icons {
+    text-align: center;
+
+}
+
+.icons img{
+    width: 40px;
+    display: inline;
+    margin: 0 6px;
+}
+
+.icons a:hover{
+    opacity: 0.5;
+}
+
+.me{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0.5cm 0.5cm;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New',monospace;
+    border-radius: 30px;
+
+}
+
+
+.work{
+    background-color: black;
+    border-radius: 30px;
+    padding: 1cm 1cm;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New',monospace;
+
+}
+
+.imgcontainer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.work h2{
+    width: 100%;
+}
+
+
+
+
+.image{
+    width: 40%;
+    border:3px solid white;
+}
+
+.image a{
+    color: white;
+    text-decoration: none;
+}
+
+.image img{
+    width: 100%;
+}
+
+.image a:hover img{
+    box-shadow:2px 6px;
+    transform: translateY(-10px);
+}
+
+
+
+
+
+
+
+.contact{
+    background-color: black;
+    padding: 1cm 1cm;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact h2{
+    color: white;
+    font-family: 'Courier New',monospace;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.input-form{
+    width: 50%;
+    margin:0 auto;
+    text-align: center;
+}
+
+.input-form [type="text"],
+.input-form textarea
+{
+    width: 100%;
+    padding: 1em .5em;
+    margin-bottom: 1rem;
+}
+
+.input-form textarea{
+    height: 250px;
+}
+
+.input-form .btm{
+    display: inline-block;
+    padding: 8px 20px;
+    color: #fff;
+    background: #000;
+    border: 1px solid #fff;
+    text-decoration: none;
+}
+
+.input-form .btm:hover{
+    background: #fff ;
+    color: black;
+}
+
+@media only screen and (max-width:767px) {
+
+    .imgcontainer{
+        flex-direction: column;
+    }
+    
+    .image{
+        width: 100%;
+    }
+
+    .input-form{
+        width: 85%;
+    }
+
+}
+    
