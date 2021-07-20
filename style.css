@@ -68,13 +68,17 @@ h1 {
 .me{
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 0.5cm 0.5cm;
-    background-color: black;
+    padding: 5cm 5cm;
     text-align: center;
-    color: white;
+    font-weight: 1000;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
     font-family: 'Courier New',monospace;
     border-radius: 30px;
-
+    background-image: url(./assets/mypic.jpg);
+    background-position-x: center;
+    background-position-y: 3000cm;
+ 
 }
 
 
@@ -120,9 +124,6 @@ h1 {
     box-shadow:2px 6px;
     transform: translateY(-10px);
 }
-
-
-
 
 
 
