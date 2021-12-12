@@ -9,9 +9,9 @@
 <body>
     <div id="GodFather">
 
-        <div class="menu">
+        <div class="menu" id="navbar">
             <div class="menuItems">
-                <a href="">Home</a>
+                <a href="#welcome-section">Home</a>
                 <a href="#me">About</a>
                 <a href="#contact">Contact</a>
             </div>
@@ -19,37 +19,58 @@
 
         <div class="container">
 
-            <div class="greet">
-                <h1>Hello There!<br> Nice to meet you</h1>
+            <section class="greet" id="welcome-section">
+                <h1>Hi!<br> I am Oak Soe Htoo Aung</h1>
+                <h3>A self-learning programmer</h3>
                 <div class="icons">
-                    <a href="https://www.facebook.com/oak.soe.18/" target="_blank"><img
+                    <a id="profile-link" href="https://www.facebook.com/oak.soe.18/" target="_blank"><img
                             src="./assets/facebook.svg" /></a>
-                    <a href="https://github.com/CryoMilo" target="_blank"><img src="./assets/Git Hub.svg" /></a>
-                    <a href="https://www.linkedin.com/in/oak-soe-htoo-aung-a14222196/" target="_blank"><img
-                            src="./assets/Linkedin.svg" /></a>
+                    <a id="profile-link" href="https://github.com/CryoMilo" target="_blank"><img
+                            src="./assets/Git Hub.svg" /></a>
+                    <a id="profile-link" href="https://www.linkedin.com/in/oak-soe-htoo-aung-a14222196/"
+                        target="_blank"><img src="./assets/Linkedin.svg" /></a>
                 </div>
-            </div>
+            </section>
 
             <div class="me" id="me">
+                <img class="myPic" src="./assets/mypic.jpg" alt="my picture" width="25%" height="25%">
                 <h2>Who am I?</h2>
-                <p>I am a 4th year Student from Myanmar Maritime University (Thanlyin).<br>
-                    Although I am studying in a Maritime industry, I held an interest in Web Designs and Data
-                    Handling.<br>
-                    This is my Portfolio website and you are free to browse through it and learn more about me!</p>
+                <p>I was a 4th year Student from Myanmar Maritime University (Thanlyin).<br>
+                    Although I am studying in a Maritime industry, I also held an interest in business echnology,
+                    programming and entrepreneurship<br>
+                    <br>Due to COVID-19 outbreak and Military Coup in 2020-2021, our Universities are closed without
+                    limits.<br>
+                    Since then, I started studying coding and seeked out a new career path.
+                    This is my Portfolio website and you are free to browse through it and learn more about me!
+                </p>
             </div>
 
-            <div class="work">
+            <section class="work" id="projects">
                 <h2>What are my accomplishments?</h2>
                 <div class="imgcontainer">
 
-                    <div class="image">
+                    <div class="image project-tile">
                         <a href="https://responsive-fb-messenger-clone.netlify.app/" target="_blank">
                             <img src="./assets/messenger website.jpg" />
                             <p>Responsive Messenger Website</p>
                         </a>
                     </div>
 
-                    <div class="image">
+                    <div class="image project-tile">
+                        <a href="https://youtube-studio-clone.netlify.app/" target="_blank">
+                            <img src="./assets/youtubestudio.png" />
+                            <p>A responsive Youtube Studio Website</p>
+                        </a>
+                    </div>
+
+                    <div class="image project-tile">
+                        <a href="https://youtube-studio-clone.netlify.app/" target="_blank">
+                            <img src="./assets/youtubestudio.png" />
+                            <p>A responsive Youtube Studio Website</p>
+                        </a>
+                    </div>
+
+                    <div class="image project-tile">
                         <a href="https://youtube-studio-clone.netlify.app/" target="_blank">
                             <img src="./assets/youtubestudio.png" />
                             <p>A responsive Youtube Studio Website</p>
@@ -57,7 +78,7 @@
                     </div>
 
                 </div>
-            </div>
+            </section>
 
 
             <div class="contact" id="contact">

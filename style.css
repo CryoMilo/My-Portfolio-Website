@@ -1,193 +1,196 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+  height: 100%;
 }
 
 body {
-    background-color: rgb(88, 85, 85);
+  background-color: rgb(88, 85, 85);
+  height: 100%;
 }
 
-.menu{
-    text-align: center;
-    font-size: 0.7cm;
-    background-color: black;
-    padding: 0.5cm 0.5cm;
-    border-radius: 30px;
-    margin-bottom: 20px;
-    position: sticky;
-    top: 0;
+.menu {
+  text-align: center;
+  font-size: 0.7cm;
+  background-color: black;
+  padding: 0.5cm 0.5cm;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  position: sticky;
+  top: 0px;
 }
 
-.menuItems a{
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    width: 100px;
-    display: inline-block;
-    padding: 5px 10px;
-    margin: 0 5px;
-    background: black;
+.menuItems a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  width: 100px;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0 5px;
+  background: black;
 }
 
-.menuItems a:hover{
-    padding-bottom: 0px;
-    font-size: 25px;
-    border-bottom:3px solid white;
+.menuItems a:hover {
+  padding-bottom: 0px;
+  font-size: 25px;
+  border-bottom: 3px solid white;
 }
-
 
 h1 {
-    font-size: 100px;
-    text-align: center;
-    color: white;
-    font-family: 'Courier New', monospace;
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+  font-family: "Courier New", monospace;
 }
 
+h3 {
+  font-size: 3rem;
 
-.greet{
-    background-image: url(./assets/black.jpg);
-    padding: 150px;
-    background-size: cover;
-    border-radius: 30px;
+  color: white;
+  font-family: "Courier New", monospace;
+}
+
+.greet {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  background-color: rgb(10, 10, 10);
+  height: 90vh;
+  border-radius: 30px;
 }
 
 .icons {
-    text-align: center;
-
+  text-align: center;
 }
 
-.icons img{
-    width: 40px;
-    display: inline;
-    margin: 0 6px;
+.icons img {
+  width: 40px;
+  display: inline;
+  margin: 0 6px;
 }
 
-.icons a:hover{
-    opacity: 0.5;
+.icons a:hover {
+  opacity: 0.5;
 }
 
-.me{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 5cm 5cm;
-    text-align: center;
-    font-weight: 1000;
-    font-size: 25px;
-    color: rgb(255, 255, 255);
-    font-family: 'Courier New',monospace;
-    border-radius: 30px;
-    background-image: url(./assets/mypic.jpg);
-    background-position-x: center;
-    background-position-y: 3000cm;
- 
+.me {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 2.5em;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  font-family: "Courier New", monospace;
+  border-radius: 30px;
+  background-image: url(./assets/portfolio\ background.jpg);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
 }
 
-
-.work{
-    background-color: black;
-    border-radius: 30px;
-    padding: 1cm 1cm;
-    color: white;
-    text-align: center;
-    font-family: 'Courier New',monospace;
-
+.myPic {
+  border-radius: 300px;
+  /* box-shadow: 1px 2px 20px rgba(153, 153, 153, 0.5); */
+  border: 10px solid rgba(0, 0, 0, 0.5);
 }
 
-.imgcontainer{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
+.work {
+  background-color: black;
+  border-radius: 30px;
+  padding: 1cm 1cm;
+  color: white;
+  text-align: center;
+  font-family: "Courier New", monospace;
 }
 
-.work h2{
-    width: 100%;
+.imgcontainer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
 }
 
-
-
-
-.image{
-    width: 40%;
-    border:3px solid white;
+.work h2 {
+  width: 100%;
 }
 
-.image a{
-    color: white;
-    text-decoration: none;
+.image {
+  width: 40%;
+  border: 3px solid white;
 }
 
-.image img{
-    width: 100%;
-    transition: all 0.5s ease;
+.image a {
+  color: white;
+  text-decoration: none;
 }
 
-.image a:hover img{
-    box-shadow:2px 6px;
-    transform: translateY(-10px);
+.image img {
+  width: 100%;
+  transition: all 0.5s ease;
 }
 
-
-
-
-.contact{
-    background-color: black;
-    padding: 1cm 1cm;
-    border-radius: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.image a:hover img {
+  box-shadow: 2px 6px;
+  transform: translateY(-10px);
 }
 
-.contact h2{
-    color: white;
-    font-family: 'Courier New',monospace;
-    text-align: center;
-    margin-bottom: 30px;
+.contact {
+  background-color: black;
+  padding: 1cm 1cm;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.input-form{
-    width: 50%;
-    margin:0 auto;
-    text-align: center;
+.contact h2 {
+  color: white;
+  font-family: "Courier New", monospace;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.input-form {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .input-form [type="text"],
-.input-form textarea
-{
+.input-form textarea {
+  width: 100%;
+  padding: 1em 0.5em;
+  margin-bottom: 1rem;
+}
+
+.input-form textarea {
+  height: 250px;
+}
+
+.input-form .btm {
+  display: inline-block;
+  padding: 8px 20px;
+  color: #fff;
+  background: #000;
+  border: 1px solid #fff;
+  text-decoration: none;
+}
+
+.input-form .btm:hover {
+  background: #fff;
+  color: black;
+}
+
+@media only screen and (max-width: 767px) {
+  .imgcontainer {
+    flex-direction: column;
+  }
+
+  .image {
     width: 100%;
-    padding: 1em .5em;
-    margin-bottom: 1rem;
+  }
+
+  .input-form {
+    width: 85%;
+  }
 }
-
-.input-form textarea{
-    height: 250px;
-}
-
-.input-form .btm{
-    display: inline-block;
-    padding: 8px 20px;
-    color: #fff;
-    background: #000;
-    border: 1px solid #fff;
-    text-decoration: none;
-}
-
-.input-form .btm:hover{
-    background: #fff ;
-    color: black;
-}
-
-@media only screen and (max-width:767px) {
-
-    .imgcontainer{
-        flex-direction: column;
-    }
-    
-    .image{
-        width: 100%;
-    }
-
-    .input-form{
-        width: 85%;
-    }
-
-}
-    
